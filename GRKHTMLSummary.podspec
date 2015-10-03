@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0"
   s.summary      = "Creates a plaintext rendering of HTML body content."
   s.description  = <<-DESC
-		Given an HTML file, this will extract the text content from the body, stripping HTML tags, and format the plaintext in such a way as to be used as a "preview" of the body content.
+		A simple utility, which when given the content of an HTML file, will extract the text content from the body, stripping HTML tags, and format the plaintext in such a way as to be used as a "preview" of the body content.
     DESC
   s.homepage     = "https://github.com/levigroker/GRKHTMLSummary"
   s.license      = 'Creative Commons Attribution 3.0 Unported License'
@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.9'
   s.source_files = 'GRKHTMLSummary/**/*.{h,m}'
   s.frameworks = 'Foundation'
-  s.dependency 'GTMNSStringHTMLAdditions', :git => 'https://github.com/levigroker/GTMNSStringAdditions'
+  s.dependency 'GTMNSStringHTMLAdditions', '~> 0.2.1'
 end

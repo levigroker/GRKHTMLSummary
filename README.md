@@ -11,6 +11,12 @@ If you're using [CocoPods](http://cocopods.org) it's as simple as adding this to
 
 	pod 'GRKHTMLSummary'
 
+NOTE: At this time, the dependent pod `GTMNSStringHTMLAdditions` does not support OSX, so
+you may need to specify your own use of `GTMNSStringHTMLAdditions` which pulls from my
+fork:
+
+	pod 'GTMNSStringHTMLAdditions', :git => 'https://github.com/levigroker/GTMNSStringAdditions'
+
 otherwise, simply add the contents of the `GRKHTMLSummary` subdirectory to your
 project.
 
