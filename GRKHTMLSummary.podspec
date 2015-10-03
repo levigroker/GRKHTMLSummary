@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.9'
   s.source_files = 'GRKHTMLSummary/**/*.{h,m}'
   s.frameworks = 'Foundation'
-  s.dependency 'GTMNSStringHTMLAdditions', '~> 0.2.1'
+  s.dependency 'GTMNSStringHTMLAdditions', '~> 0.2'
 end
