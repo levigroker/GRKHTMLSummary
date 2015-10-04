@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D6387613-A3E2-4BA0-980C-CB865816CDCC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GRKHTMLSummaryLib</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>176C8600AFAFAAD397F28B5F0E411B43F7E3D41A</key>
+		<string>github.com:levigroker/GRKHTMLSummary.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GRKHTMLSummaryLib/GRKHTMLSummaryLib.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>176C8600AFAFAAD397F28B5F0E411B43F7E3D41A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:levigroker/GRKHTMLSummary.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>176C8600AFAFAAD397F28B5F0E411B43F7E3D41A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>176C8600AFAFAAD397F28B5F0E411B43F7E3D41A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GRKHTMLSummary</string>
+		</dict>
+	</array>
+</dict>
+</plist>
