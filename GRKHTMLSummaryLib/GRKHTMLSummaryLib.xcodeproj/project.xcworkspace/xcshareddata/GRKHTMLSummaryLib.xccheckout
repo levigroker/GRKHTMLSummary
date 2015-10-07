@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>D6387613-A3E2-4BA0-980C-CB865816CDCC</string>
+	<string>F8FEEA73-1F1F-4A1D-836A-C37E7EE20C9B</string>
 	<key>IDESourceControlProjectName</key>
 	<string>GRKHTMLSummaryLib</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,11 +14,11 @@
 		<string>github.com:levigroker/GRKHTMLSummary.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>GRKHTMLSummaryLib/GRKHTMLSummaryLib.xcworkspace</string>
+	<string>GRKHTMLSummaryLib/GRKHTMLSummaryLib.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>176C8600AFAFAAD397F28B5F0E411B43F7E3D41A</key>
-		<string>../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:levigroker/GRKHTMLSummary.git</string>

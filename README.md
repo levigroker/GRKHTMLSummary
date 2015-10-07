@@ -17,11 +17,7 @@ If you're using [CocoPods](http://cocopods.org) it's as simple as adding this to
 	pod 'GRKHTMLSummary'
 
 otherwise, simply add the contents of the `GRKHTMLSummary` subdirectory to your
-project, and follow the installation directions for [GTMNSStringAdditions](https://github.com/gjeck/GTMNSStringAdditions).
-
-NOTE: At this time, the dependent pod `GTMNSStringHTMLAdditions` does not support OSX, so
-`GRKHTMLSummary.podspec` can not support OSX either. There is an open [pull request](https://github.com/gjeck/GTMNSStringAdditions/pull/3)
-to correct this.
+project.
 
 ### Documentation
 
@@ -38,6 +34,8 @@ content, it could block for a perceptible time.
 
 #### Disclaimer and Licence
 
+* This includes a copy of [GTMNSStringAdditions](https://github.com/gjeck/GTMNSStringAdditions).  
+  Please see the license file `./GRKHTMLSummary/GTMNSStringHTMLAdditions/LICENSE`
 * This work is licensed under the [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/).
   Please see the included LICENSE.txt for complete details.
 

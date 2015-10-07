@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "GRKHTMLSummary"
-  s.version      = "1.0"
+  s.version      = "1.1"
   s.summary      = "Creates a plaintext rendering of HTML body content."
   s.description  = <<-DESC
 		A simple utility, which when given the content of an HTML file, will extract the text content from the body, stripping HTML tags, and format the plaintext in such a way as to be used as a "preview" of the body content.
@@ -11,12 +11,8 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/levigroker'
   s.source       = { :git => "https://github.com/levigroker/GRKHTMLSummary.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '7.0'
-# TODO: When the pull request against GTMNSStringHTMLAdditions to support OSX is merged, then also support OSX
-# See: https://github.com/gjeck/GTMNSStringAdditions/pull/3
-#  s.ios.deployment_target = '7.0'
-#  s.osx.deployment_target = '10.9'
+  s.ios.deployment_target = '7.0'
+  s.osx.deployment_target = '10.9'
   s.source_files = 'GRKHTMLSummary/**/*.{h,m}'
   s.frameworks = 'Foundation'
-  s.dependency 'GTMNSStringHTMLAdditions', '~> 0.2'
 end

@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		92F891FDB0DF030BD0B92277 /* libPods-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3619E5AC6C6CCA7CCCFC5FF9 /* libPods-ios.a */; };
-		9E7D590DDC4C30BF2227FF9D /* libPods-osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD44EA9676E2F1062BA5808 /* libPods-osx.a */; };
+		DBF53B1B1BC5CEC600C1EB08 /* GTMNSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF53B181BC5CEC600C1EB08 /* GTMNSString+HTML.h */; };
+		DBF53B1C1BC5CEC600C1EB08 /* GTMNSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF53B181BC5CEC600C1EB08 /* GTMNSString+HTML.h */; };
+		DBF53B1D1BC5CEC600C1EB08 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF53B191BC5CEC600C1EB08 /* GTMNSString+HTML.m */; };
+		DBF53B1E1BC5CEC600C1EB08 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF53B191BC5CEC600C1EB08 /* GTMNSString+HTML.m */; };
+		DBF53B1F1BC5CEC600C1EB08 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DBF53B1A1BC5CEC600C1EB08 /* LICENSE */; };
+		DBF53B201BC5CEC600C1EB08 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DBF53B1A1BC5CEC600C1EB08 /* LICENSE */; };
 		DBFC0ED81BBF385B00646A41 /* GRKHTMLSummaryLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFC0ED71BBF385B00646A41 /* GRKHTMLSummaryLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBFC0EDE1BBF385B00646A41 /* GRKHTMLSummaryLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFC0ED21BBF385B00646A41 /* GRKHTMLSummaryLib.framework */; };
 		DBFC0EE51BBF385B00646A41 /* GRKHTMLSummaryLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFC0EE41BBF385B00646A41 /* GRKHTMLSummaryLibTests.m */; };
@@ -35,13 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1725EF252AEB6C67FCB2EE07 /* Pods-osx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-osx.release.xcconfig"; path = "Pods/Target Support Files/Pods-osx/Pods-osx.release.xcconfig"; sourceTree = "<group>"; };
-		2096210FC77447F1BD90C9E9 /* Pods-osx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-osx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-osx/Pods-osx.debug.xcconfig"; sourceTree = "<group>"; };
-		3619E5AC6C6CCA7CCCFC5FF9 /* libPods-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8EFC41949E5059357904B1DD /* Pods-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios/Pods-ios.release.xcconfig"; sourceTree = "<group>"; };
-		A6EC4F9A844D3410C19B848B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		AAD44EA9676E2F1062BA5808 /* libPods-osx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-osx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1CEA1AF850AB19D95146427 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DBF53B181BC5CEC600C1EB08 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		DBF53B191BC5CEC600C1EB08 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		DBF53B1A1BC5CEC600C1EB08 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DBFC0ED21BBF385B00646A41 /* GRKHTMLSummaryLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GRKHTMLSummaryLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFC0ED61BBF385B00646A41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBFC0ED71BBF385B00646A41 /* GRKHTMLSummaryLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRKHTMLSummaryLib.h; sourceTree = "<group>"; };
@@ -55,7 +55,6 @@
 		DBFC0F091BBF49B400646A41 /* test1_stripped_tags.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test1_stripped_tags.txt; sourceTree = "<group>"; };
 		DBFC0F0C1BBF4AF200646A41 /* test1_condensed.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test1_condensed.txt; sourceTree = "<group>"; };
 		DBFC0F0E1BBF4DA700646A41 /* test1_summary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test1_summary.txt; sourceTree = "<group>"; };
-		DC2856EE3835DB38F15B3FFF /* Pods-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios/Pods-ios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E7D590DDC4C30BF2227FF9D /* libPods-osx.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,33 +77,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92F891FDB0DF030BD0B92277 /* libPods-ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		41EBB388CB835D08B19FB311 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A6EC4F9A844D3410C19B848B /* Pods.debug.xcconfig */,
-				C1CEA1AF850AB19D95146427 /* Pods.release.xcconfig */,
-				DC2856EE3835DB38F15B3FFF /* Pods-ios.debug.xcconfig */,
-				8EFC41949E5059357904B1DD /* Pods-ios.release.xcconfig */,
-				2096210FC77447F1BD90C9E9 /* Pods-osx.debug.xcconfig */,
-				1725EF252AEB6C67FCB2EE07 /* Pods-osx.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		85E1E441EE999013392FF09B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3619E5AC6C6CCA7CCCFC5FF9 /* libPods-ios.a */,
-				AAD44EA9676E2F1062BA5808 /* libPods-osx.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBF53B171BC5CEC600C1EB08 /* GTMNSStringHTMLAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				DBF53B181BC5CEC600C1EB08 /* GTMNSString+HTML.h */,
+				DBF53B191BC5CEC600C1EB08 /* GTMNSString+HTML.m */,
+				DBF53B1A1BC5CEC600C1EB08 /* LICENSE */,
+			);
+			path = GTMNSStringHTMLAdditions;
 			sourceTree = "<group>";
 		};
 		DBFC0EC81BBF385B00646A41 = {
@@ -115,7 +107,6 @@
 				DBFC0ED41BBF385B00646A41 /* GRKHTMLSummaryLib */,
 				DBFC0EE11BBF385B00646A41 /* GRKHTMLSummaryLibTests */,
 				DBFC0ED31BBF385B00646A41 /* Products */,
-				41EBB388CB835D08B19FB311 /* Pods */,
 				85E1E441EE999013392FF09B /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -171,6 +162,7 @@
 			children = (
 				DBFC0EEF1BBF38C400646A41 /* GRKHTMLSummary.h */,
 				DBFC0EF01BBF38C400646A41 /* GRKHTMLSummary.m */,
+				DBF53B171BC5CEC600C1EB08 /* GTMNSStringHTMLAdditions */,
 			);
 			name = GRKHTMLSummary;
 			path = ../GRKHTMLSummary;
@@ -202,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBFC0ED81BBF385B00646A41 /* GRKHTMLSummaryLib.h in Headers */,
+				DBF53B1C1BC5CEC600C1EB08 /* GTMNSString+HTML.h in Headers */,
 				DBFC0EF11BBF38C400646A41 /* GRKHTMLSummary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBFC0EFB1BBF40DD00646A41 /* GRKHTMLSummaryLib.h in Headers */,
+				DBF53B1B1BC5CEC600C1EB08 /* GTMNSString+HTML.h in Headers */,
 				DBFC0EFC1BBF40DD00646A41 /* GRKHTMLSummary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,12 +216,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBFC0EE81BBF385B00646A41 /* Build configuration list for PBXNativeTarget "osx" */;
 			buildPhases = (
-				E308DEEB3551EBD6F910CB32 /* Check Pods Manifest.lock */,
 				DBFC0ECD1BBF385B00646A41 /* Sources */,
 				DBFC0ECE1BBF385B00646A41 /* Frameworks */,
 				DBFC0ECF1BBF385B00646A41 /* Headers */,
 				DBFC0ED01BBF385B00646A41 /* Resources */,
-				7E8ECD9897090EA9AD5C3F80 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,12 +252,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBFC0EFF1BBF40DD00646A41 /* Build configuration list for PBXNativeTarget "ios" */;
 			buildPhases = (
-				DBFC0EF51BBF40DD00646A41 /* Check Pods Manifest.lock */,
 				DBFC0EF61BBF40DD00646A41 /* Sources */,
 				DBFC0EF81BBF40DD00646A41 /* Frameworks */,
 				DBFC0EFA1BBF40DD00646A41 /* Headers */,
 				DBFC0EFD1BBF40DD00646A41 /* Resources */,
-				DBFC0EFE1BBF40DD00646A41 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -317,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF53B201BC5CEC600C1EB08 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,73 +326,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBF53B1F1BC5CEC600C1EB08 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		7E8ECD9897090EA9AD5C3F80 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-osx/Pods-osx-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DBFC0EF51BBF40DD00646A41 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		DBFC0EFE1BBF40DD00646A41 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios/Pods-ios-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E308DEEB3551EBD6F910CB32 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DBFC0ECD1BBF385B00646A41 /* Sources */ = {
@@ -409,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBFC0EF21BBF38C400646A41 /* GRKHTMLSummary.m in Sources */,
+				DBF53B1E1BC5CEC600C1EB08 /* GTMNSString+HTML.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBFC0EF71BBF40DD00646A41 /* GRKHTMLSummary.m in Sources */,
+				DBF53B1D1BC5CEC600C1EB08 /* GTMNSString+HTML.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,7 +458,6 @@
 		};
 		DBFC0EE91BBF385B00646A41 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2096210FC77447F1BD90C9E9 /* Pods-osx.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -545,7 +475,6 @@
 		};
 		DBFC0EEA1BBF385B00646A41 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1725EF252AEB6C67FCB2EE07 /* Pods-osx.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -563,7 +492,6 @@
 		};
 		DBFC0EEC1BBF385B00646A41 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EFC41949E5059357904B1DD /* Pods-ios.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -584,7 +512,6 @@
 		};
 		DBFC0EED1BBF385B00646A41 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EFC41949E5059357904B1DD /* Pods-ios.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -601,7 +528,6 @@
 		};
 		DBFC0F001BBF40DD00646A41 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC2856EE3835DB38F15B3FFF /* Pods-ios.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -619,7 +545,6 @@
 		};
 		DBFC0F011BBF40DD00646A41 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EFC41949E5059357904B1DD /* Pods-ios.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMBINE_HIDPI_IMAGES = YES;
