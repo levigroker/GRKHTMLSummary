@@ -19,9 +19,6 @@
 
 #import <Foundation/Foundation.h>
 
-#define _GRKGTMDevLog(x)
-#define _GRKGTMDevAssert(x,y)
-
 /// Utilities for NSStrings containing HTML
 @interface NSString (GRKGTMNSStringHTMLAdditions)
 
