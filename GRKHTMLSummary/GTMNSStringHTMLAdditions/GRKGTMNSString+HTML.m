@@ -1,5 +1,5 @@
 //
-//  GTMNSString+HTML.m
+//  GRKGTMNSString+HTML.m
 //  Dealing with NSStrings that contain HTML
 //
 //  Copyright 2006-2008 Google Inc.
@@ -18,7 +18,7 @@
 //
 
 //#import "GTMDefines.h"
-#import "GTMNSString+HTML.h"
+#import "GRKGTMNSString+HTML.h"
 
 typedef struct {
     __unsafe_unretained NSString *escapeSequence;
@@ -370,9 +370,9 @@ static int EscapeMapCompare(const void *ucharVoid, const void *mapVoid) {
     return val;
 }
 
-@implementation NSString (GTMNSStringHTMLAdditions)
+@implementation NSString (GRKGTMNSStringHTMLAdditions)
 
-- (NSString *)gtm_stringByEscapingHTMLUsingTable:(HTMLEscapeMap*)table
+- (NSString *)grk_gtm_stringByEscapingHTMLUsingTable:(HTMLEscapeMap*)table
                                           ofSize:(NSUInteger)size
                                  escapingUnicode:(BOOL)escapeUnicode {
     NSUInteger length = [self length];
@@ -391,7 +391,7 @@ static int EscapeMapCompare(const void *ucharVoid, const void *mapVoid) {
         NSMutableData *data = [NSMutableData dataWithLength:length * sizeof(UniChar)];
         if (!data) {
             // COV_NF_START  - Memory fail case
-            _GTMDevLog(@"couldn't alloc buffer");
+            _GRKGTMDevLog(@"couldn't alloc buffer");
             return nil;
             // COV_NF_END
         }
@@ -401,7 +401,7 @@ static int EscapeMapCompare(const void *ucharVoid, const void *mapVoid) {
     
     if (!buffer || !data2) {
         // COV_NF_START
-        _GTMDevLog(@"Unable to allocate buffer or data2");
+        _GRKGTMDevLog(@"Unable to allocate buffer or data2");
         return nil;
         // COV_NF_END
     }
@@ -425,7 +425,7 @@ static int EscapeMapCompare(const void *ucharVoid, const void *mapVoid) {
                 [finalString appendString:val->escapeSequence];
             }
             else {
-                _GTMDevAssert(escapeUnicode && buffer[i] > 127, @"Illegal Character");
+                _GRKGTMDevAssert(escapeUnicode && buffer[i] > 127, @"Illegal Character");
                 [finalString appendFormat:@"&#%d;", buffer[i]];
             }
         } else {
@@ -441,19 +441,19 @@ static int EscapeMapCompare(const void *ucharVoid, const void *mapVoid) {
     return finalString;
 }
 
-- (NSString *)gtm_stringByEscapingForHTML {
-    return [self gtm_stringByEscapingHTMLUsingTable:gUnicodeHTMLEscapeMap
+- (NSString *)grk_gtm_stringByEscapingForHTML {
+    return [self grk_gtm_stringByEscapingHTMLUsingTable:gUnicodeHTMLEscapeMap
                                              ofSize:sizeof(gUnicodeHTMLEscapeMap)
                                     escapingUnicode:NO];
 } // gtm_stringByEscapingHTML
 
-- (NSString *)gtm_stringByEscapingForAsciiHTML {
-    return [self gtm_stringByEscapingHTMLUsingTable:gAsciiHTMLEscapeMap
+- (NSString *)grk_gtm_stringByEscapingForAsciiHTML {
+    return [self grk_gtm_stringByEscapingHTMLUsingTable:gAsciiHTMLEscapeMap
                                              ofSize:sizeof(gAsciiHTMLEscapeMap)
                                     escapingUnicode:YES];
 } // gtm_stringByEscapingAsciiHTML
 
-- (NSString *)gtm_stringByUnescapingFromHTML {
+- (NSString *)grk_gtm_stringByUnescapingFromHTML {
     NSRange range = NSMakeRange(0, [self length]);
     NSRange subrange = [self rangeOfString:@"&" options:NSBackwardsSearch range:range];
     
@@ -515,7 +515,7 @@ static int EscapeMapCompare(const void *ucharVoid, const void *mapVoid) {
         }
     } while ((subrange = [self rangeOfString:@"&" options:NSBackwardsSearch range:range]).length != 0);
     return finalString;
-} // gtm_stringByUnescapingHTML
+} // grk_gtm_stringByUnescapingHTML
 
 
 

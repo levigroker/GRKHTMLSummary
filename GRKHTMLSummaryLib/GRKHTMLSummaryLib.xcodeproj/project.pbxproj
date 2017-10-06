@@ -7,21 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DBF53B1B1BC5CEC600C1EB08 /* GTMNSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF53B181BC5CEC600C1EB08 /* GTMNSString+HTML.h */; };
-		DBF53B1C1BC5CEC600C1EB08 /* GTMNSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF53B181BC5CEC600C1EB08 /* GTMNSString+HTML.h */; };
-		DBF53B1D1BC5CEC600C1EB08 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF53B191BC5CEC600C1EB08 /* GTMNSString+HTML.m */; };
-		DBF53B1E1BC5CEC600C1EB08 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF53B191BC5CEC600C1EB08 /* GTMNSString+HTML.m */; };
-		DBF53B1F1BC5CEC600C1EB08 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DBF53B1A1BC5CEC600C1EB08 /* LICENSE */; };
-		DBF53B201BC5CEC600C1EB08 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DBF53B1A1BC5CEC600C1EB08 /* LICENSE */; };
+		09FF71E31FF15A9DCAC56ECD /* Pods_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87ECD5C42B3B10DE09BD706F /* Pods_ios.framework */; };
+		22E8F683453C4D962D1FEA98 /* Pods_osx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3C271B772FD9B95A3103FF /* Pods_osx.framework */; };
+		BA0AD26EE917450C18A8056F /* Pods_GRKHTMLSummaryLibTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC650E608A73653BC033D6C /* Pods_GRKHTMLSummaryLibTests.framework */; };
 		DBFC0ED81BBF385B00646A41 /* GRKHTMLSummaryLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFC0ED71BBF385B00646A41 /* GRKHTMLSummaryLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBFC0EDE1BBF385B00646A41 /* GRKHTMLSummaryLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFC0ED21BBF385B00646A41 /* GRKHTMLSummaryLib.framework */; };
 		DBFC0EE51BBF385B00646A41 /* GRKHTMLSummaryLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFC0EE41BBF385B00646A41 /* GRKHTMLSummaryLibTests.m */; };
-		DBFC0EF11BBF38C400646A41 /* GRKHTMLSummary.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFC0EEF1BBF38C400646A41 /* GRKHTMLSummary.h */; };
-		DBFC0EF21BBF38C400646A41 /* GRKHTMLSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFC0EF01BBF38C400646A41 /* GRKHTMLSummary.m */; };
-		DBFC0EF31BBF38C400646A41 /* GRKHTMLSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFC0EF01BBF38C400646A41 /* GRKHTMLSummary.m */; };
-		DBFC0EF71BBF40DD00646A41 /* GRKHTMLSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFC0EF01BBF38C400646A41 /* GRKHTMLSummary.m */; };
 		DBFC0EFB1BBF40DD00646A41 /* GRKHTMLSummaryLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFC0ED71BBF385B00646A41 /* GRKHTMLSummaryLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DBFC0EFC1BBF40DD00646A41 /* GRKHTMLSummary.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFC0EEF1BBF38C400646A41 /* GRKHTMLSummary.h */; };
 		DBFC0F071BBF488F00646A41 /* test1.html in Resources */ = {isa = PBXBuildFile; fileRef = DBFC0F061BBF488F00646A41 /* test1.html */; };
 		DBFC0F0A1BBF49B400646A41 /* test1_stripped_tags.txt in Resources */ = {isa = PBXBuildFile; fileRef = DBFC0F091BBF49B400646A41 /* test1_stripped_tags.txt */; };
 		DBFC0F0D1BBF4AF200646A41 /* test1_condensed.txt in Resources */ = {isa = PBXBuildFile; fileRef = DBFC0F0C1BBF4AF200646A41 /* test1_condensed.txt */; };
@@ -39,22 +31,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DBF53B181BC5CEC600C1EB08 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
-		DBF53B191BC5CEC600C1EB08 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
-		DBF53B1A1BC5CEC600C1EB08 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1AC650E608A73653BC033D6C /* Pods_GRKHTMLSummaryLibTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRKHTMLSummaryLibTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3C271B772FD9B95A3103FF /* Pods_osx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_osx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC23F41EEAF3D616EF70C0B /* Pods-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios/Pods-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		87ECD5C42B3B10DE09BD706F /* Pods_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C78394E74E2D4E14CE05A64 /* Pods-osx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-osx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-osx/Pods-osx.debug.xcconfig"; sourceTree = "<group>"; };
+		9F30A2DCEB9AE0DCF1E5222F /* Pods-osx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-osx.release.xcconfig"; path = "Pods/Target Support Files/Pods-osx/Pods-osx.release.xcconfig"; sourceTree = "<group>"; };
+		A5051D33FC445FCC0625D4CE /* Pods-GRKHTMLSummaryLibTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRKHTMLSummaryLibTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GRKHTMLSummaryLibTests/Pods-GRKHTMLSummaryLibTests.release.xcconfig"; sourceTree = "<group>"; };
 		DBFC0ED21BBF385B00646A41 /* GRKHTMLSummaryLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GRKHTMLSummaryLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFC0ED61BBF385B00646A41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBFC0ED71BBF385B00646A41 /* GRKHTMLSummaryLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRKHTMLSummaryLib.h; sourceTree = "<group>"; };
 		DBFC0EDD1BBF385B00646A41 /* GRKHTMLSummaryLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GRKHTMLSummaryLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFC0EE31BBF385B00646A41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBFC0EE41BBF385B00646A41 /* GRKHTMLSummaryLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRKHTMLSummaryLibTests.m; sourceTree = "<group>"; };
-		DBFC0EEF1BBF38C400646A41 /* GRKHTMLSummary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRKHTMLSummary.h; sourceTree = "<group>"; };
-		DBFC0EF01BBF38C400646A41 /* GRKHTMLSummary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRKHTMLSummary.m; sourceTree = "<group>"; };
 		DBFC0F021BBF40DD00646A41 /* GRKHTMLSummaryLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GRKHTMLSummaryLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFC0F061BBF488F00646A41 /* test1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test1.html; sourceTree = "<group>"; };
 		DBFC0F091BBF49B400646A41 /* test1_stripped_tags.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test1_stripped_tags.txt; sourceTree = "<group>"; };
 		DBFC0F0C1BBF4AF200646A41 /* test1_condensed.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test1_condensed.txt; sourceTree = "<group>"; };
 		DBFC0F0E1BBF4DA700646A41 /* test1_summary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test1_summary.txt; sourceTree = "<group>"; };
+		E0314932357483C30CDB8653 /* Pods-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios/Pods-ios.release.xcconfig"; sourceTree = "<group>"; };
+		E67A600C415F77D7EE6ED196 /* Pods-GRKHTMLSummaryLibTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRKHTMLSummaryLibTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GRKHTMLSummaryLibTests/Pods-GRKHTMLSummaryLibTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E8F683453C4D962D1FEA98 /* Pods_osx.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBFC0EDE1BBF385B00646A41 /* GRKHTMLSummaryLib.framework in Frameworks */,
+				BA0AD26EE917450C18A8056F /* Pods_GRKHTMLSummaryLibTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09FF71E31FF15A9DCAC56ECD /* Pods_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,28 +85,21 @@
 		85E1E441EE999013392FF09B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1AC650E608A73653BC033D6C /* Pods_GRKHTMLSummaryLibTests.framework */,
+				87ECD5C42B3B10DE09BD706F /* Pods_ios.framework */,
+				3A3C271B772FD9B95A3103FF /* Pods_osx.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DBF53B171BC5CEC600C1EB08 /* GTMNSStringHTMLAdditions */ = {
-			isa = PBXGroup;
-			children = (
-				DBF53B181BC5CEC600C1EB08 /* GTMNSString+HTML.h */,
-				DBF53B191BC5CEC600C1EB08 /* GTMNSString+HTML.m */,
-				DBF53B1A1BC5CEC600C1EB08 /* LICENSE */,
-			);
-			path = GTMNSStringHTMLAdditions;
 			sourceTree = "<group>";
 		};
 		DBFC0EC81BBF385B00646A41 = {
 			isa = PBXGroup;
 			children = (
-				DBFC0EEE1BBF38C400646A41 /* GRKHTMLSummary */,
 				DBFC0ED41BBF385B00646A41 /* GRKHTMLSummaryLib */,
 				DBFC0EE11BBF385B00646A41 /* GRKHTMLSummaryLibTests */,
 				DBFC0ED31BBF385B00646A41 /* Products */,
 				85E1E441EE999013392FF09B /* Frameworks */,
+				E631F1C60FB1211B82B7B21F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,17 +149,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DBFC0EEE1BBF38C400646A41 /* GRKHTMLSummary */ = {
-			isa = PBXGroup;
-			children = (
-				DBFC0EEF1BBF38C400646A41 /* GRKHTMLSummary.h */,
-				DBFC0EF01BBF38C400646A41 /* GRKHTMLSummary.m */,
-				DBF53B171BC5CEC600C1EB08 /* GTMNSStringHTMLAdditions */,
-			);
-			name = GRKHTMLSummary;
-			path = ../GRKHTMLSummary;
-			sourceTree = "<group>";
-		};
 		DBFC0F081BBF489400646A41 /* Test Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +167,19 @@
 			name = "Expected Test Results";
 			sourceTree = "<group>";
 		};
+		E631F1C60FB1211B82B7B21F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E67A600C415F77D7EE6ED196 /* Pods-GRKHTMLSummaryLibTests.debug.xcconfig */,
+				A5051D33FC445FCC0625D4CE /* Pods-GRKHTMLSummaryLibTests.release.xcconfig */,
+				6EC23F41EEAF3D616EF70C0B /* Pods-ios.debug.xcconfig */,
+				E0314932357483C30CDB8653 /* Pods-ios.release.xcconfig */,
+				9C78394E74E2D4E14CE05A64 /* Pods-osx.debug.xcconfig */,
+				9F30A2DCEB9AE0DCF1E5222F /* Pods-osx.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -194,8 +188,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBFC0ED81BBF385B00646A41 /* GRKHTMLSummaryLib.h in Headers */,
-				DBF53B1C1BC5CEC600C1EB08 /* GTMNSString+HTML.h in Headers */,
-				DBFC0EF11BBF38C400646A41 /* GRKHTMLSummary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,8 +196,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBFC0EFB1BBF40DD00646A41 /* GRKHTMLSummaryLib.h in Headers */,
-				DBF53B1B1BC5CEC600C1EB08 /* GTMNSString+HTML.h in Headers */,
-				DBFC0EFC1BBF40DD00646A41 /* GRKHTMLSummary.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,10 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBFC0EE81BBF385B00646A41 /* Build configuration list for PBXNativeTarget "osx" */;
 			buildPhases = (
+				E991BDB0E6714270E90022F7 /* [CP] Check Pods Manifest.lock */,
 				DBFC0ECD1BBF385B00646A41 /* Sources */,
 				DBFC0ECE1BBF385B00646A41 /* Frameworks */,
 				DBFC0ECF1BBF385B00646A41 /* Headers */,
 				DBFC0ED01BBF385B00646A41 /* Resources */,
+				396F57410A4E3B5B96B2BD2B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBFC0EEB1BBF385B00646A41 /* Build configuration list for PBXNativeTarget "GRKHTMLSummaryLibTests" */;
 			buildPhases = (
+				3D7A7967074411B8FEB5A4A6 /* [CP] Check Pods Manifest.lock */,
 				DBFC0ED91BBF385B00646A41 /* Sources */,
 				DBFC0EDA1BBF385B00646A41 /* Frameworks */,
 				DBFC0EDB1BBF385B00646A41 /* Resources */,
+				CE038C13157FC48301D7CA29 /* [CP] Embed Pods Frameworks */,
+				D631454D449C3ED71A32984B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,10 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBFC0EFF1BBF40DD00646A41 /* Build configuration list for PBXNativeTarget "ios" */;
 			buildPhases = (
+				884D45CCE1D4CAC8835F5D75 /* [CP] Check Pods Manifest.lock */,
 				DBFC0EF61BBF40DD00646A41 /* Sources */,
 				DBFC0EF81BBF40DD00646A41 /* Frameworks */,
 				DBFC0EFA1BBF40DD00646A41 /* Headers */,
 				DBFC0EFD1BBF40DD00646A41 /* Resources */,
+				B468AFF6A1240219DDAE6DE0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -272,7 +269,7 @@
 		DBFC0EC91BBF385B00646A41 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Levi Brown";
 				TargetAttributes = {
 					DBFC0ED11BBF385B00646A41 = {
@@ -307,7 +304,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBF53B201BC5CEC600C1EB08 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,19 +322,136 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBF53B1F1BC5CEC600C1EB08 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		396F57410A4E3B5B96B2BD2B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-osx/Pods-osx-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D7A7967074411B8FEB5A4A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GRKHTMLSummaryLibTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		884D45CCE1D4CAC8835F5D75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B468AFF6A1240219DDAE6DE0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios/Pods-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE038C13157FC48301D7CA29 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GRKHTMLSummaryLibTests/Pods-GRKHTMLSummaryLibTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GRKHTMLSummary-iOS/GRKHTMLSummary.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRKHTMLSummary.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GRKHTMLSummaryLibTests/Pods-GRKHTMLSummaryLibTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D631454D449C3ED71A32984B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GRKHTMLSummaryLibTests/Pods-GRKHTMLSummaryLibTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E991BDB0E6714270E90022F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-osx-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DBFC0ECD1BBF385B00646A41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBFC0EF21BBF38C400646A41 /* GRKHTMLSummary.m in Sources */,
-				DBF53B1E1BC5CEC600C1EB08 /* GTMNSString+HTML.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +459,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBFC0EF31BBF38C400646A41 /* GRKHTMLSummary.m in Sources */,
 				DBFC0EE51BBF385B00646A41 /* GRKHTMLSummaryLibTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,8 +467,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBFC0EF71BBF40DD00646A41 /* GRKHTMLSummary.m in Sources */,
-				DBF53B1D1BC5CEC600C1EB08 /* GTMNSString+HTML.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,19 +489,28 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -425,13 +544,21 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -458,6 +585,7 @@
 		};
 		DBFC0EE91BBF385B00646A41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C78394E74E2D4E14CE05A64 /* Pods-osx.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -468,6 +596,7 @@
 				INFOPLIST_FILE = GRKHTMLSummaryLib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.levigroker.$(PRODUCT_NAME:rfc1034identifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -475,6 +604,7 @@
 		};
 		DBFC0EEA1BBF385B00646A41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F30A2DCEB9AE0DCF1E5222F /* Pods-osx.release.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -485,6 +615,7 @@
 				INFOPLIST_FILE = GRKHTMLSummaryLib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.levigroker.$(PRODUCT_NAME:rfc1034identifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -492,6 +623,7 @@
 		};
 		DBFC0EEC1BBF385B00646A41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E67A600C415F77D7EE6ED196 /* Pods-GRKHTMLSummaryLibTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -505,6 +637,7 @@
 				);
 				INFOPLIST_FILE = GRKHTMLSummaryLibTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.levigroker.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = ../GRKHTMLSummary;
 			};
@@ -512,6 +645,7 @@
 		};
 		DBFC0EED1BBF385B00646A41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5051D33FC445FCC0625D4CE /* Pods-GRKHTMLSummaryLibTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -521,6 +655,7 @@
 				);
 				INFOPLIST_FILE = GRKHTMLSummaryLibTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.levigroker.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = ../GRKHTMLSummary;
 			};
@@ -528,8 +663,10 @@
 		};
 		DBFC0F001BBF40DD00646A41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EC23F41EEAF3D616EF70C0B /* Pods-ios.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -539,14 +676,17 @@
 				INFOPLIST_FILE = GRKHTMLSummaryLib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.levigroker.$(PRODUCT_NAME:rfc1034identifier)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
 		DBFC0F011BBF40DD00646A41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0314932357483C30CDB8653 /* Pods-ios.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -556,6 +696,7 @@
 				INFOPLIST_FILE = GRKHTMLSummaryLib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.levigroker.$(PRODUCT_NAME:rfc1034identifier)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;

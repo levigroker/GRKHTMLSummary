@@ -1,5 +1,5 @@
 //
-//  GTMNSString+HTML.h
+//  GRKGTMNSString+HTML.h
 //  Dealing with NSStrings that contain HTML
 //
 //  Copyright 2006-2008 Google Inc.
@@ -19,11 +19,11 @@
 
 #import <Foundation/Foundation.h>
 
-#define _GTMDevLog(x)
-#define _GTMDevAssert(x,y)
+#define _GRKGTMDevLog(x)
+#define _GRKGTMDevAssert(x,y)
 
 /// Utilities for NSStrings containing HTML
-@interface NSString (GTMNSStringHTMLAdditions)
+@interface NSString (GRKGTMNSStringHTMLAdditions)
 
 /// Get a string where internal characters that need escaping for HTML are escaped
 //
@@ -38,7 +38,7 @@
 //  Returns:
 //    Autoreleased NSString
 //
-- (NSString *)gtm_stringByEscapingForHTML;
+- (NSString *)grk_gtm_stringByEscapingForHTML;
 
 /// Get a string where internal characters that need escaping for HTML are escaped
 //
@@ -54,7 +54,7 @@
 //  Returns:
 //    Autoreleased NSString
 //
-- (NSString *)gtm_stringByEscapingForAsciiHTML;
+- (NSString *)grk_gtm_stringByEscapingForAsciiHTML;
 
 /// Get a string where internal characters that are escaped for HTML are unescaped
 //
@@ -64,6 +64,6 @@
 //  Returns:
 //    Autoreleased NSString
 //
-- (NSString *)gtm_stringByUnescapingFromHTML;
+- (NSString *)grk_gtm_stringByUnescapingFromHTML;
 
 @end

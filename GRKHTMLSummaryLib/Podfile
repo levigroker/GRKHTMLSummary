@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+use_frameworks!
+
+pod 'GRKHTMLSummary', :path => '..'
+
+target 'ios' do
+platform :ios, '7.0'
+  target 'GRKHTMLSummaryLibTests' do
+    inherit! :search_paths
+  end
+end
+
+target 'osx' do
+platform :macos, '10.9'
+end

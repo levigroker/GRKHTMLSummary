@@ -1,0 +1,6 @@
+framework module GRKHTMLSummary {
+  umbrella header "GRKHTMLSummary-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

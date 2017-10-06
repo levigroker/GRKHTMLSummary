@@ -17,7 +17,7 @@
 //
 
 #import "GRKHTMLSummary.h"
-#import "GTMNSString+HTML.h"
+#import "GRKGTMNSString+HTML.h"
 
 static NSString * const kHTMLTagOpenBody = @"<body>";
 static NSString * const kHTMLTagCloseBody = @"</body>";
@@ -30,7 +30,7 @@ static NSString * const kHTMLTagClose = @">";
 {
     NSString *stripped = [self stripTagsFromString:html characterCount:count];
     NSString *condensed = [self condenseWhitespaceFromString:stripped];
-    NSString *unescaped = [condensed gtm_stringByUnescapingFromHTML];
+    NSString *unescaped = [condensed grk_gtm_stringByUnescapingFromHTML];
     
     return unescaped;
 }

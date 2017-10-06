@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "GRKHTMLSummary"
-  s.version      = "1.1"
+  s.version      = "1.2"
   s.summary      = "Creates a plaintext rendering of HTML body content."
   s.description  = <<-DESC
 		A simple utility, which when given the content of an HTML file, will extract the text content from the body, stripping HTML tags, and format the plaintext in such a way as to be used as a "preview" of the body content.
